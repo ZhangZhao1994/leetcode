@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    maven {
+        url 'https://maven.aliyun.com/repository/public/'
+    }
+
+}
+
+dependencies {
+    implementation group: 'com.alibaba', name: 'fastjson', version: '1.2.75'
+
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.7.2'
+}
+
+task printProps {
+    doLast {
+        println Runtime.pa
+    }
+}
