@@ -50,12 +50,6 @@ public class Solution {
         boolean flag2 = cl2 == null;
 
         while (true) {
-
-            if (cre == null) {
-                cre.next = new ListNode(0);
-                cre = cre.next;
-            }
-
             if (!flag1) {
                 cre.val += cl1.val;
                 cl1 = cl1.next;
