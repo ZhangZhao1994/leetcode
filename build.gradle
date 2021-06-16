@@ -5,6 +5,9 @@ plugins {
 group 'org.example'
 version '1.0-SNAPSHOT'
 
+//指定编译版本
+sourceCompatibility = '1.8'
+
 repositories {
     maven {
         url 'https://maven.aliyun.com/repository/public/'
